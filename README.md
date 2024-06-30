@@ -42,3 +42,5 @@ npm run dev
 #### Authors
 
 Author: Anna Miroshnichenko
+
+[Deisgn in Figma](https://www.figma.com/design/bTJGM8Xv4lEDQqciMjBWsY/Apple-Calculator-%C2%B7-iOS-(Community)?node-id=0-1&t=KTbDEDX0V8N7XhGl-0)
