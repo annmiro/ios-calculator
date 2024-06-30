@@ -1,0 +1,10 @@
+.display {
+  width: 185px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 23px;
+  font-size: 46px;
+  height: 54px;
+  align-items: center;
+}

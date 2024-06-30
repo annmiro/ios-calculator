@@ -1,0 +1,22 @@
+.button-plus {
+  position: absolute;
+  font-size: 10px;
+  top: -11px;
+  left: -7px;
+}
+
+.button-plus::after {
+  content: "/";
+  position: absolute;
+  font-size: 16px;
+  top: 9px;
+  right: -6px;
+  transform: translate(-50%, -50%) rotate(15deg);
+}
+
+.button-minus {
+  position: absolute;
+  font-size: 13px;
+  top: -6px;
+  left: 2px;
+}

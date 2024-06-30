@@ -1,0 +1,19 @@
+.phone-device {
+  position: relative;
+  display: flex;
+  width: 229px;
+  padding: 140px 13px 60px;
+  background-image: url("../../images/device.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--white);
+}
+
+.phone-time {
+  position: absolute;
+  top: 29px;
+  left: 51px;
+  font-size: 9px;
+  background-color: var(--black);
+}

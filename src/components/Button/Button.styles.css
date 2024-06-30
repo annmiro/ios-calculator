@@ -1,0 +1,49 @@
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-family: inherit;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 44px;
+  border-radius: 22px;
+}
+
+.button.single {
+  width: 44px;
+  justify-content: center;
+}
+
+.button.double {
+  justify-content: start;
+  width: calc(44px + 44px + 7px);
+  padding: 0 16px;
+}
+
+.button.grey {
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
+
+.button.grey:active {
+  background-color: var(--grey-active);
+}
+
+.button.light-grey {
+  background-color: var(--light-grey);
+  color: var(--black);
+}
+
+.button.light-grey:active {
+  background-color: var(--white);
+}
+
+.button.orange {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.button.orange:active {
+  background-color: var(--orange-active);
+}

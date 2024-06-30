@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  font-family: "SF Pro Display", system-ui, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: var(--bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --orange: #ff9f03;
+  --white: #ffffff;
+  --black: #000000;
+  --light-grey: #8f8f94;
+  --dark-grey: #3a3a3c;
+  --orange-active: #fbc88e;
+  --grey-active: #737373;
+  --bg: #f2f2f7;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
